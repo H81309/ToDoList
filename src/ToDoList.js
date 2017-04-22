@@ -8,7 +8,7 @@ class ToDoList extends Component {
 
   render() {
     const { aList } = this.props;
-    console.log('aList = ', aList);
+
     return (
       <div id="to-do-list">
         {
